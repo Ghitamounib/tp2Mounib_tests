@@ -16,7 +16,7 @@ public class Test3 {
                 .modelName("gemini-embedding-001").
                 taskType(GoogleAiEmbeddingModel.TaskType.SEMANTIC_SIMILARITY)
                 .outputDimensionality(300)
-                .timeout(Duration.ofSeconds(1)).
+                .timeout(Duration.ofSeconds(10)).
                 build();
 
         String phrase1 = "Bonjour, comment allez-vous ?";
