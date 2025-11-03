@@ -21,7 +21,7 @@ public class Test2 {
 
         PromptTemplate template = PromptTemplate.from("Traduis le texte suivant en anglais : {{texte}}");
 
-        Prompt prompt = template.apply(Map.of("texte", "Je suis passionnée par l’intelligence artificielle."));
+        Prompt prompt = template.apply(Map.of("texte", "J’aime apprendre de nouvelles technologies."));
 
         System.out.println(modele.chat(prompt.text()));
 
