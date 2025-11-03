@@ -14,7 +14,7 @@ public class Test1 {
                 .temperature(0.7)
                 .build();
 
-        String reponse = modele.chat("Superficie de la France ?");
+        String reponse = modele.chat("Quelle est la superficie de la France ?");
         System.out.println(reponse);
     }
 }
